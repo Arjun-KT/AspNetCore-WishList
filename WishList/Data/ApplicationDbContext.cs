@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using WishList.Wishlist.Models;
+using WishList.Models;
 
-namespace WishList.Wishlist.Data
+namespace WishList.Data
 {
     public class ApplicationDbContext : DbContext
     {
